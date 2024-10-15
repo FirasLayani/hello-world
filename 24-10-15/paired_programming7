@@ -1,0 +1,8 @@
+let n = 67765900
+let year = 2023
+
+do {
+    console.log(year, n)
+    n*= 1.003 //same as n = n*1.003
+    year +=1
+} while (n <= 80000000)

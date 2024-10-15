@@ -1,0 +1,18 @@
+const readline = require('readline-sync')
+
+const direction = readline.question('Enter direction (up or down): ')
+
+if (direction == 'up') {
+    const num = readline.question('Enter top number: ')
+    for (let i = 1;i<=num;i++) {
+        console.log(i)
+    } 
+
+} else if (direction == 'down') {
+    const num = readline.question('Enter number below 20: ')
+    for (let i = 20;i>=num;i--) {
+        console.log(i)
+    } 
+} else {
+    console.log('Wakannai! Je ne sais pas!')
+}
