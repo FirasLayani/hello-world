@@ -1,0 +1,10 @@
+const readline = require('readline-sync')
+
+let total=0
+
+do {
+    num = readline.question('Enter number: ')
+    num = parseInt(num)
+    total += num
+} while (num >= 0)
+console.log(total)
