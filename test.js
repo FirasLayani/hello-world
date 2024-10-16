@@ -1,3 +1,7 @@
-const numbers = [1,2,3]
+let num = 4;
 
-console.log(typeof numbers)
+if (num === 4) {
+    console.log('Number is 4')
+} else {
+    console.log('Number is not 4')
+}
