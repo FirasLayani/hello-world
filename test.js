@@ -1,14 +1,12 @@
-// Using shorthand IF statements
+// Using .split()
+let words = 'A few random words';
 
-let num = 4;
+words = words.split(' ').reverse().join(' ')
 
-/*
-if (num === 4) {
-    console.log('Number is 4')
-} else {
-    console.log('Number is not 4')
-}
-    */
+console.log(words)
 
-num === 4 ? console.log('Number is 4') : console.log('Number is not 4')
-
+// Using .reverse() and .join()
+let days = 'Monday, Tuesday, Wednesday, Thursday, Friday'
+days = days.split(', ')
+console.log(days)
+console.log(days.reverse().join(', '))
